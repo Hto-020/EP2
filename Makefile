@@ -1,6 +1,6 @@
 CC=gcc
 
-all: clean sequential pthread openmp
+all: clean sequential pthread 
 
 sequential:
 	$(CC) laplace_seq.c -o laplace_seq
